@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Writing Types</h1>
+    
+<!-- INLINE JS -->
+    <button onclick="alert(`This is inline`)">Inline</button>
+    <!-- redundant -->
+
+<!-- INTERNAL JS -->
+    <button class="btn">Internal</button>
+
+        <script>
+            document.querySelectorAll('.btn').forEach(item => {
+                item.addEventListener('click', () => {
+                    alert('this is internal')
+                })
+            })
+        </script> <!--always place at bottom-->
+
+<!-- EXTERNAL JS -->
+    <button class="btn--1">External</button>
+
+        <script src="./main.js"></script>
+</body>
+
+</html>
