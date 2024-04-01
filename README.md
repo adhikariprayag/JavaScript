@@ -1,5 +1,6 @@
 # Learning JavaScript Fundamentals
-- Resources
+
+Resources
 <ul>
   <li>https://youtu.be/2Ji-clqUYnA?si=XICASVBs3eMOmIio</li>
   <li>https://www.w3schools.com/js/</li>
