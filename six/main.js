@@ -31,4 +31,4 @@ console.log(typeof result) //Null -> not object but its o/p is object its a bug 
 
 //UNDEFINED
 let nam;
-console.log(typeof nam)
+console.log(typeof nam) //SYMBOL ES6
