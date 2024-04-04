@@ -35,13 +35,13 @@ const div = num1 / num2;
 console.log(add, sub, mul, div);
 
 let num3 = 40;
-num3 += 5;
+num3 += 5; //num3 + 5 = 40 + 5
 console.log(num3)
 
 num3 -= 5;
 console.log(num3)
 
-num3++;
+num3++; //adds +1
 console.log(num3);
 
 const amt1 = 10 / 3;

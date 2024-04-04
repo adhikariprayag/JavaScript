@@ -1,0 +1,91 @@
+• JS is language web dev must learn.
+• Invented by Brendan Eich in 1995.
+• ECMA standard in 1997.
+• Official Name of standard: ECMA-262 
+• Official name: EMCAScript 
+
+(ECMA: European Computer MAnufacturer's Associations)
+
+• JS VERSIONS:
+
+    - Original JavaScript ES1 ES2 ES3 (1997-1999)
+    - First Main Revision ES5 (2009)
+    - Second Revision ES6 (2015)
+    - Yearly Additions (2016, 2017 ... 2021, 2022)
+
+• JS Can Change: 
+
+    - HTML Content
+    - HTML Attribute Values
+    - HTML Styles (CSS)
+    - Show HTML Elements
+
+• Remember:
+
+    - using document.write() after html is loaded will delete all existing html
+    - 
+    /*  
+        <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+        <button type="button" onclick="document.write(5 + 6)">Try it</button>
+    */
+
+    - window object is the "GLOBAL SCOPE" :  everything by default belong to window object
+
+• JS Keywords:
+
+    - var : declare variables
+    - let : declared block variables
+    - const : declared block constant
+    - if 
+    - switch
+    - for
+    - function 
+    - return
+    - try : implements error handeling for block statements
+
+    //They are reserved and cannot be used as names for a variables
+
+• JS Syntax:
+    Js syntax defines two types of Values
+
+    - fixed : literals -> 
+                            numbers (written with or without deciamls)
+                            strings (written with "" or '')
+
+    - variables -> store data
+
+• JS Variables:
+
+    var = used from 1995 to 2015
+    let & const = added in 2015
+
+• Re Declaring:
+
+    - re-declaring variable with var won't loose it's value
+        e.g.:   var carName = "Volvo";
+                var carName;
+        //value will not change
+
+    - cannot re-declare variable declared with "let" and "const"
+
+• Block Scope:
+
+{
+    let x = 2;
+    //--- x can be accessed here
+
+    //--- let and const are block-scoped
+}
+
+//--- x cannot be accessed here
+//--- "var" is global scoped
+
+
+        BLOCK SCOPE     REDECLARED      REASSIGN        HOISTED     Binds this     
+var         N               Y               Y               Y          Y
+let         Y               N               Y               N          N
+const       Y               N               N               N          N
+
+HOISTED: declaration moved to top before execution
+Binds this: 

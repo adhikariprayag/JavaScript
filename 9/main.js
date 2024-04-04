@@ -9,7 +9,6 @@ EXPRESSIONS
 - use var
 - diff : hoisting, || use - arrow function, libraries
 
-
 ---*/
 
 // You can omit function names to manke anonymous function

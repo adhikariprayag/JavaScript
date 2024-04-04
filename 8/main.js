@@ -3,14 +3,14 @@
 FUNCTIONS
 
 - declare
-- (): Parameters
+- () Praenthesis: Parameters
 - logic
 - invoke
 
 ---*/
 
 //declare
-function myFunction(){
+function myFunction(/*Parameter Goes here*/){
     //logic
     console.log('Hello 1');
     console.log('Hello 2');
@@ -38,7 +38,7 @@ function friends(name){
 }
 
 friends(); //Undefined
-friends("Ram");
+friends("Ram"); 
 
 let bestFriend = "Hari";
 friends(bestFriend); 
@@ -79,7 +79,7 @@ function calculate(val){
     // return  newValue;
     return val * 2;
 
-    //Typing anythinga after return is not interpreted
+    //Typing anything after return is not interpreted
 }
 
 const w = calculate(1);
