@@ -87,5 +87,40 @@ var         N               Y               Y               Y          Y
 let         Y               N               Y               N          N
 const       Y               N               N               N          N
 
-HOISTED: declaration moved to top before execution
-Binds this: 
+
+    HOISTED: declaration moved to top before execution
+    
+    Binds this: 
+
+
+• Value vs Reference:
+
+    - when assigning primitive data type value to a variable any changes 
+        are made directly to that value, without affecting original value 
+
+    - when assigning non-primitive data type value to a variable is done
+        by reference so any changes will affect all the references 
+
+    - E.G: {./pic_1.png} 
+        to avoid it use -> person2 = {...person}
+
+
+
+• Null & Undefined: 
+
+    both represent "no value"
+
+    - undefined : js cannot find value
+    - null : developer sets the value
+
+
+
+• Truthy & Falsy:
+
+    - all valus in js are truthy or falsy
+    - Falsy values:
+                    "", '', ``, 0, -0, NaN (not a number), false, null, undefined
+
+
+
+•
